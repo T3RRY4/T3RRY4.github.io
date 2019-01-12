@@ -25,10 +25,6 @@ body {
 	border-left: #233656 solid 5px;
 }
 
-span {
-	margin: 0;
-}
-
 A{
 	position: relative;
 	text-decoration: none;
@@ -38,7 +34,7 @@ A{
 }
 
 a:hover {
-  color: #000;
+  color: red;
 }
 
 a:before {
@@ -48,7 +44,7 @@ a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: red;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
