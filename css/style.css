@@ -30,15 +30,36 @@ span {
 }
 
 A{
+	position: relative;
 	text-decoration: none;
 	color: #233656;
 	padding: 5px;
 	transition: 0.5s;
 }
 
-A:hover{
-	box-shadow: inset 0 -50px 0 #233656;
-	color: white;
+a:hover {
+  color: #000;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 #logo:hover {
