@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Регистрация</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,600,700,900" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<script type="text/javascript" src="js/script.js"></script>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="header">
+			<div id="return">
+				<a href="index.html"><i class="fas fa-angle-left"></i> Вернуться назад</a>
+			</div>
+		</div>
+		<div class="form">
+			<div id="name">Регистрация</div>
+			<form name="register">
+				Имя: <input name="firstname" id="textInput">
+				<br>Фамилия: <input id="textInput" type="text" name="secondname">
+				<br>Отчество: <input name="thirdname" id="textInput">
+				<br>Пол: <input type="radio" name="gender" value="r1"><label for="r1">Мужчина</label> <input type="radio" name="gender" value="r2"><label for="r2">Женщина</label>
+				<br>E-Mail: <input name="email" id="textInput">
+				<br>Пароль: <input type="password" id="textInput">
+				<br><button class="clearButton" onClick="registeralert();">Зарегистрироваться</button>
+			</form>
+		</div>
+	</body>
+</html>
