@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 *
 {
-	font-family: 'Exo 2', sans-serif;
+	font-family: 'Roboto Slab', sans-serif;
 }
 
 body {
